@@ -1,29 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-/*@font-face {
-    font-family: "JetBrains Mono";
-    src: url("./fonts/JetBrainsMono-VariableFont_wght.ttf");
-}*/
-
-:root {
-    --font-family: "JetBrains Mono";
-    --font-text: 16px;
-    --black: #272727;
-    --white: #f8f8f8;
-    --blue: #223cb2;
-    --red: #d11c1c;
-    --green: #2b9422;
-    --orange: #ff751f;
-}
-
-html{
-    font-family: var(--font-family);
-    scroll-behavior: smooth;
-}
 
 body {
     font-family: var(--font-family);
@@ -35,7 +10,7 @@ nav {
     top: 20px;
     width: 80%;
     left: 10%;
-    position: sticky;
+    position: fixed;
     border-radius: 25px;
     border: 2px solid var(--black);
     box-shadow: 3px 3px 0px var(--black);
@@ -131,70 +106,4 @@ nav {
     height: 150px;
 }
 
-#hero {
-    background-color: var(--blue);
-    height: 100vh;
-    width: 100%;
-}
 
-#experience{
-    background-color: var(--red);
-    height: 100vh;
-    width: 100%;
-}
-
-#projects {
-    background-color: var(--green);
-    height: 100vh;
-    width: 100%;
-}
-
-#contact{
-    background-color: var(--orange);
-    height: 100vh;
-    width: 100%;
-}
-/*Extra Small Devices*/
-@media (max-width: 480px) {
-    nav{
-        width: 90%;
-        left: 5%;
-    }
-    .nav-links{
-        display: none;
-    }
-    .mobile-nav-toggle{
-        display: flex;
-    }
-   
-}
-
-/*Small Devices*/
-@media  (max-width: 768px) and (min-width: 481px)  {
-    .nav-links{
-        display: none;
-    }
-    .mobile-nav-toggle{
-        display: flex;
-    }
-}
-
-/*Medium Devices*/
-@media (max-width: 1024px) and(min-width: 769px)   {
-    .nav-links{
-        display: flex;
-    }
-    .mobile-nav-toggle{
-        display: none;
-    }
-}
-
-/*Large Devices*/
-@media (min-width: 1024px) {
-   .nav-links{
-        display: flex;
-    }
-    .mobile-nav-toggle{
-        display: none;
-    }
-}

@@ -1,0 +1,30 @@
+#hero {
+    background-color: var(--blue);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1{
+    font-family: var(--font-family-title);
+    font-size: 10rem;
+    color: var(--white);
+}
+
+#hero p{
+    color: var(--white);
+}
+
+#hero button{
+    margin: 40px;
+   
+}
+
+#hero button a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
