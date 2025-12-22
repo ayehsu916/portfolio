@@ -24,9 +24,12 @@
 }
 
 /*Medium Devices*/
-@media (max-width: 1024px) and(min-width: 769px)   {
+@media (max-width: 1024px) and (min-width: 769px)   {
     .nav-links{
         display: flex;
+    }
+    .mobile-nav-links{
+        display: none;
     }
     .mobile-nav-toggle{
         display: none;
@@ -37,6 +40,9 @@
 @media (min-width: 1024px) {
    .nav-links{
         display: flex;
+    }
+    .mobile-nav-links{
+        display: none;
     }
     .mobile-nav-toggle{
         display: none;

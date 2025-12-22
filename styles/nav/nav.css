@@ -16,6 +16,7 @@ nav {
     box-shadow: 3px 3px 0px var(--black);
     box-sizing: border-box;
     overflow: hidden;
+    z-index: 100;
 }
 
 .nav-container{

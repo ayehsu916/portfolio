@@ -19,7 +19,11 @@
     --font-family: "JetBrains Mono";
     --font-family-title: "Dynamo Shadow";
     --font-text: 16px;
-    --font-title: 1.5rem;
+    --font-title: 4rem;
+    --font-mb-text: 12px;
+    --font-sub-title: 2rem;
+    --font-mb-title: 3rem;
+    --font--mb-sub-title: 1.5rem;
     --black: #272727;
     --white: #f8f8f8;
     --blue: #223cb2;
@@ -33,6 +37,12 @@ html{
     scroll-behavior: smooth;
     font-size: var(--font-text);
 }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-family-title);
+    color: var(--white);
+}
+
 .btn{
     background-color: var(--white);
     border: 2px solid var(--black);
